@@ -1,4 +1,5 @@
-﻿@model dynamic
+﻿@using System.Web.Optimization
+@model dynamic
 
 @{
     ViewBag.Title = "Index";
@@ -6,3 +7,6 @@
 
 <h2>title</h2>
 
+@section Scripts {
+    @Scripts.Render("~/bundles/angular")
+}
