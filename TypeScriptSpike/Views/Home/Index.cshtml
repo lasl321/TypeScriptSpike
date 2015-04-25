@@ -5,8 +5,13 @@
     ViewBag.Title = "Index";
 }
 
-<h2>title</h2>
+<h1>
+    Hello
+</h1>
 
 @section Scripts {
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/application")
 }

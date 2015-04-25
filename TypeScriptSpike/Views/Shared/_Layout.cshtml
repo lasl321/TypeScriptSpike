@@ -1,11 +1,15 @@
-﻿<!DOCTYPE html>
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
 <html>
 <head>
     <meta content="width=device-width" name="viewport" />
     <title>@ViewBag.Title</title>
+    @Styles.Render("~/bundles/bootstrap")
 </head>
 <body>
-<div>@RenderBody()</div>
+<div class="container">
+    @RenderBody()
+</div>
 
     @RenderSection("Scripts", false)
 </body>
