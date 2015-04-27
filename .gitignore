@@ -187,3 +187,8 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+# Custom
+TypeScriptSpike/Scripts/Application/*.d.ts
+TypeScriptSpike/Scripts/Application/*.js
+TypeScriptSpike/Scripts/Application/*.map

@@ -12,6 +12,8 @@ namespace TypeScriptSpike
             bundles.Add(new ScriptBundle("~/bundles/application").IncludeDirectory("~/Scripts/Application/", "*.js"));
 
             bundles.Add(new StyleBundle("~/bundles/bootstrap").Include("~/Content/bootstrap.css"));
+
+            BundleTable.EnableOptimizations = false;
         }
     }
 }
